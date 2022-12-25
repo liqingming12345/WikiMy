@@ -11,9 +11,9 @@ import java.util.List;
 public class TestService {
 
     @Resource
-    private TestMapper tstMapper;
+    private TestMapper testMapper;
 
     public List<Test> list(){
-        return tstMapper.list();
+        return testMapper.list();
     }
 }
